@@ -1,0 +1,16 @@
+name: Jenkins template
+description: Jenkins
+keywords: jenkins
+recommended: true
+documentation: |
+  Jenkins
+authors:
+- 'harebox@gmail.com'
+type: jenkins
+images:
+- name: jenkins
+  source: jenkins:latest
+  description: jenkins
+  environment:
+    - variable: HELLO
+      value: WORLD
